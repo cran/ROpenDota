@@ -1,7 +1,7 @@
 Package: ROpenDota
 Type: Package
 Title: Access OpenDota Services in R
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person("Rosdyana", "Kusuma", email = "rosdyana.kusuma@gmail.com",
                   role = c("aut", "cre"))
 URL: https://github.com/rosdyana/ROpenDota
@@ -14,7 +14,7 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2017-05-04 17:00:14 UTC; ros
+Packaged: 2017-05-16 07:51:13 UTC; ros
 Author: Rosdyana Kusuma [aut, cre]
 Repository: CRAN
-Date/Publication: 2017-05-04 17:41:01 UTC
+Date/Publication: 2017-05-16 08:55:45 UTC

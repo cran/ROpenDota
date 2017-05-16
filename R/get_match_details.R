@@ -10,14 +10,15 @@
 #' matchDetails <- get_match_details(match_id)
 #' }
 get_match_details <- function(match_id) {
+  api_delay(proc.time()[3])
 
   prefix <- "https://api.opendota.com/api/matches/"
 
   url <- paste(prefix, match_id, sep = "")
 
-  raw <- getURL(url)
+  readlines <- readLines(url, warn = FALSE)
 
-  matchDetails <- fromJSON(raw)
+  matchDetails <- fromJSON(readlines)
 
   return(matchDetails)
 
